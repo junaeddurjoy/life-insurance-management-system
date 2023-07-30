@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: #3a3a3a;
+}
+/* global styles start*/
+.flexed {
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-cen {
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+img {
+  width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* global styles end*/
+/*
+header style start 
+*/
+header {
+  padding: 30px 0px;
+}
+hr {
+  margin-top: 15px;
+  border-radius: 15px;
+  border: 1px solid #9e2ce0;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #3a3a3a;
+  margin: 0 auto;
+  transition: all 0.5s ease-in-out;
+}
+.logo:hover {
+  color: #9e2ce0;
+}
+.menu-wrap {
+  justify-content: space-between;
+}
+.main-menu li a {
+  font-weight: 500;
+  color: #3a3a3a;
+  transition: all 0.3s ease-in-out;
+}
+.main-menu li a:hover {
+  color: #9e2ce0;
+}
+.main-menu li a i {
+  font-size: 20px;
+}
+.main-menu li {
+  margin-left: 35px;
+}
+
+/*
+header style end
+*/
+/* 
+hero area style start 
+*/
+.hero-area {
+  padding: 90px 0px;
+}
+.hero-contents h1 {
+  font-size: 50px;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.hero-contents p {
+  font-weight: bold;
+  margin: 15px 0px;
+  line-height: 2;
+}
+.half-column {
+  width: 50%;
+}
+.hero-area .row {
+  justify-content: space-between;
+}
+
+.hero-product {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #dc9ff7;
+  color: black !important;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover {
+  background-color: #bf1dff;
+  padding: 8px 15px;
+  color: black;
+}
+.btn i {
+  margin-left: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover i {
+  padding-left: 10px;
+}
+/* 
+hero area style end 
+*/
+/* 
+logo list area style  start
+*/
+.logo-list {
+  padding-bottom: 80px;
+}
+.logo-wrap {
+  justify-content: space-between;
+  padding: 20px 120px;
+  position: relative;
+}
+.logo-wrap:before,
+.logo-wrap:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: radial-gradient(at 50%, #efc6ff, transparent 62%);
+  background-size: 100% 2px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0.5px;
+}
+.logo-wrap:after {
+  top: 100%;
+}
+/* 
+logo list area style end
+*/
+/*
+ popular product area style start  
+*/
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  padding-top: 30px;
+  position: relative;
+  z-index: 1;
+  background: #1c1c30;
+  max-width: 349px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #a9b7de;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: white;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #214a80;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #4270ad;
+}
+
+.form .submit-btn {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #944000;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: black;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form a {
+  color: white;
+  font-size: 11px;
+}
+.form .submit-btn:hover,
+.form button:active,
+.form a:active,
+.form button:focus {
+  background: #820016;
+  color: white;
+}
+.form p {
+  color: #faf7b6;
+  font-size: 14px;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: white;
+}
+
+.imgs {
+  margin-top: 0%;
+  margin-left: 20%;
+  height: 40%;
+  height: 40%;
+}
+body {
+  background: url(2.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bimages .b_img {
+  padding: 20px 20px;
+}
+
+/* offer area style end */
+/*
+ footer style start
+*/
+footer {
+  padding: 70px 0px;
+  background-color: #392c4e;
+}
+.footer-contents {
+  text-align: center;
+}
+.footer-logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer-contents p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 200;
+  padding: 0px 40%;
+  margin-top: 10px;
+}
+.footer-contents ul {
+  justify-content: center;
+  margin-top: 15px;
+}
+.footer-contents ul li {
+  margin-right: 10px;
+}
+.footer-contents ul li a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #564c5a;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+.footer-contents ul li a:hover {
+  transform: scale(1.1);
+}
+.footer-contents ul li a i {
+  color: rgb(207, 124, 240);
+  font-size: 18px;
+}
+/*
+ footer style end
+*/
